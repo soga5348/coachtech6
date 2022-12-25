@@ -3,17 +3,18 @@
     font-size: 25px;
     color:#000080;
     position: relative;
-    top:0px;
-    left: 10px;
+    top: 10px;
+    left: 20px;
 }
 
 .header-nav-list{
     display:flex;
     justify-content:flex-end;
     position: relative;
-    bottom: 50px;
+    bottom:15px;
     list-style:none;
     font-family:'Roboto', sans-serif ;
+    font-weight: bold;
     
 }
 .header-nav-item{
@@ -27,20 +28,21 @@ a {
 
 .firstview{
     position:relative;
-    top: 40px;
-    left: 730px;
+    top: 100px;
+    left: 50%;
+    width:50%;
     z-index: 10;
 }
 .main-title{
     font-size: 70px;
     position: relative;
-    bottom:230px;
+    bottom:80px;
 }
 .bg{
-    width: 1050px;
+    width: 70%;
     height: 200px;
     background-color: #000080;
     z-index: 0;
     position: relative;
-    bottom: 320px;
+    bottom: 80px;
 }
