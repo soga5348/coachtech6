@@ -1,0 +1,46 @@
+.header-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color:#000080;
+    position: relative;
+    top:0px;
+    left: 10px;
+}
+
+.header-nav-list{
+    display:flex;
+    justify-content:flex-end;
+    position: relative;
+    bottom: 50px;
+    list-style:none;
+    font-family:'Roboto', sans-serif ;
+    
+}
+.header-nav-item{
+    position:relative;
+    margin-right:25px
+}
+a {
+    text-decoration: none;
+    color:#000080
+}
+
+.firstview{
+    position:relative;
+    top: 40px;
+    left: 730px;
+    z-index: 10;
+}
+.main-title{
+    font-size: 70px;
+    position: relative;
+    bottom:230px;
+}
+.bg{
+    width: 1050px;
+    height: 200px;
+    background-color: #000080;
+    z-index: 0;
+    position: relative;
+    bottom: 320px;
+}
